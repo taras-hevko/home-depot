@@ -1,0 +1,26 @@
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #96c1e4;
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+
+    cursor: pointer;
+  }
+  &__logo {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    object-fit: contain;
+  }
+}
