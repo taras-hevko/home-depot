@@ -1,0 +1,74 @@
+.file {
+  background-color: #798a9e;
+  &__date {
+    padding: 12px;
+  }
+  &__list {
+    padding: 20px;
+    border-top: 5px #bdc5cf solid;
+    background-color: #fff;
+    max-height: 228px;
+    overflow-y: auto;
+  }
+  &__list--closed {
+    padding: 0;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 11px;
+    &::after {
+      content: " ";
+      position: absolute;
+      bottom: 0;
+      left: 1.5%;
+      right: 0;
+      height: 5px;
+      background-color: #bdc5cf;
+      z-index: 0;
+    }
+    &::before {
+      content: " ";
+      position: absolute;
+      bottom: 0;
+      left: 1.5%;
+      right: 0;
+      height: 5px;
+      width: 30%;
+      background-color: #798a9e;
+      z-index: 22;
+    }
+  }
+  &__info--sky::before {
+    background-color: #00b9ee;
+    width: 60%;
+  }
+  &__info--green::before {
+    background-color: #3aaa35;
+    width: 100%;
+  }
+  &__name-wrap {
+    display: flex;
+    align-items: center;
+  }
+  &__name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3d59;
+  }
+  &__icon {
+    margin-right: 10px;
+  }
+  &__status-wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  &__status {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: #bdc5cf;
+  }
+}

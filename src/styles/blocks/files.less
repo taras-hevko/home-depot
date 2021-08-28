@@ -1,10 +1,11 @@
 .files {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 10px;
+  &__container {
+    margin: 0 auto;
+    gap: 20px;
+    padding: 10px;
+  }
   &__wrap {
     display: flex;
     padding-right: 20px;
@@ -21,6 +22,9 @@
       background-color: #005383;
     }
   }
+  &__wrap--closed {
+    margin-bottom: 20px;
+  }
   &__logo-lowes {
     padding-left: 10px;
   }
@@ -36,5 +40,4 @@
 
     cursor: pointer;
   }
-
 }
