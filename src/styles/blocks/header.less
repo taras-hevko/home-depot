@@ -1,6 +1,7 @@
 .header {
   padding-left: 100px;
-  background-color: #ed7103;
+  background-color: #7e8a9c;
+
   &__list {
     display: flex;
     justify-content: space-between;
@@ -8,6 +9,9 @@
   }
   &__item {
     display: flex;
+  }
+  &__item1 {
+    justify-self: flex-end;
   }
   &__burger {
     display: flex;
@@ -68,6 +72,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 47px;
+    height: 47px;
   }
   &__manager-number {
     display: flex;
@@ -87,5 +93,71 @@
     font-size: 10px;
     line-height: 20px;
     color: #fff;
+  }
+}
+
+@media (max-width: 960px) {
+  .header {
+    padding-left: 70px;
+    &__title {
+      font-size: 21px;
+      line-height: 28px;
+    }
+    &__list {
+      flex-wrap: wrap;
+      justify-content: stretch;
+      align-items: stretch;
+    }
+    &__burger {
+      height: 70px;
+      width: 70px;
+
+      order: 2;
+    }
+    &__burger-icon {
+      width: 27px;
+      height: 22px;
+    }
+    &__item-title {
+      margin: auto;
+    }
+    &__item-last {
+      justify-content: center;
+      padding-top: 16px;
+      order: 3;
+      background-color: #f8f9fa;
+      flex-basis: 100%;
+      border: none;
+      outline: none;
+    }
+    &__manager-photo {
+      width: 45px;
+      height: 45px;
+      margin-left: 21px;
+
+      margin-right: 35px;
+    }
+    &__manager-icon,
+    &__manager-number,
+    &__manager-add {
+      width: 33px;
+      height: 33px;
+    }
+    &__another-managers {
+      gap: 10px;
+      padding-right: 10px;
+    }
+    &__number-icon {
+      width: 21px;
+      height: 17px;
+    }
+    &__manager-info {
+      display: none;
+    }
+    &__manager-text {
+      font-size: 7px;
+      line-height: 14px;
+      color: #909eaf;
+    }
   }
 }

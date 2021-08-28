@@ -3,7 +3,7 @@
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #96c1e4;
+  background-color: #7e8a9c;
   &__list {
     display: flex;
     flex-direction: column;
@@ -22,5 +22,18 @@
     align-self: center;
     justify-self: center;
     object-fit: contain;
+  }
+}
+
+@media (max-width: 960px) {
+  .sidebar {
+    &__item {
+      width: 70px;
+      height: 70px;
+    }
+    &__logo {
+      width: 50px;
+      height: 50px;
+    }
   }
 }
