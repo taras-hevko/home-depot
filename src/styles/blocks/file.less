@@ -1,12 +1,12 @@
 .file {
-  background-color: #798a9e;
+  background-color: @color-grey;
   &__date {
     padding: 12px;
   }
   &__list {
     padding: 20px;
-    border-top: 5px #bdc5cf solid;
-    background-color: #fff;
+    border-top: 5px @color-light-grey solid;
+    background-color: @color-white;
     max-height: 228px;
     overflow-y: auto;
   }
@@ -25,7 +25,7 @@
       left: 1.5%;
       right: 0;
       height: 5px;
-      background-color: #bdc5cf;
+      background-color: @color-light-grey;
       z-index: 0;
     }
     &::before {
@@ -36,7 +36,7 @@
       right: 0;
       height: 5px;
       width: 30%;
-      background-color: #798a9e;
+      background-color: @color-grey;
       z-index: 22;
     }
   }
@@ -46,15 +46,14 @@
   }
   &__info--green::before {
     background-color: #3aaa35;
-    width: 100%;
+    width: 98.5%;
   }
   &__name-wrap {
     display: flex;
     align-items: center;
   }
   &__name {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    .basic-text;
     font-weight: 600;
     color: #2c3d59;
   }

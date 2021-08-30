@@ -12,13 +12,11 @@
     flex-direction: column;
   }
   &__input-text {
-    font-family: "Open sans", sans-serif;
-    font-size: 20px;
-    color: #798a9e;
+    .basic-text;
+    color: @color-grey;
   }
   &__input {
-    font-family: "Open sans", sans-serif;
-    font-size: 20px;
+    .basic-text;
     font-weight: 500;
 
     width: 554px;
@@ -32,8 +30,7 @@
     box-shadow: 0.1px 3px 7px 1px rgba(34, 60, 80, 0.2);
   }
   &__button {
-    font-family: "Open sans", sans-serif;
-    font-size: 20px;
+    .basic-text;
     line-height: 1.2;
     width: 160px;
     height: 57px;
@@ -41,15 +38,16 @@
     border: none;
     outline: none;
 
-    color: #fff;
-    background-color: #798a9e;
+    color: @color-white;
+    background-color: @color-grey;
     box-shadow: 0.1px 3px 7px 1px rgba(34, 60, 80, 0.2);
     cursor: pointer;
 
     margin-right: 26px;
     transition: opacity 0.2s linear;
     &:hover,
-    &:active {
+    &:active,
+    &:focus {
       opacity: 0.9;
       outline: none;
     }
@@ -74,9 +72,6 @@
       width: 120px;
       height: 40px;
       font-size: 14px;
-    }
-    &__title {
-
     }
   }
 }
