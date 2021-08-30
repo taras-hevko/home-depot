@@ -1,18 +1,14 @@
 .files {
   display: flex;
   justify-content: center;
-  &__container {
-    margin: 0 auto;
-    gap: 20px;
-    padding: 10px;
-  }
+  padding: 10px;
   &__wrap {
     display: flex;
     padding-right: 20px;
     justify-content: space-between;
     align-items: center;
-    min-width: 740px;
-    height: 62px;
+    width: 740px;
+    min-height: 62px;
 
     background-color: #ed7103;
     &--blue {
@@ -23,7 +19,7 @@
     }
   }
   &__wrap--closed {
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
   &__logo-lowes {
     padding-left: 10px;
@@ -39,5 +35,29 @@
     text-align: center;
 
     cursor: pointer;
+  }
+}
+@media (max-width: 960px) {
+  .files {
+    &__wrap {
+      width: 440px;
+    }
+    &__title {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .files {
+    &__wrap {
+      gap: 10px;
+      flex-direction: column;
+      padding: 5px 20px 10px 0;
+      width: 350px;
+    }
+    &__title {
+      display: none;
+    }
   }
 }
