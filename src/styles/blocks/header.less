@@ -1,11 +1,11 @@
 .header {
   padding-left: 100px;
   background-color: @color-grey;
-  box-shadow: 0.1px 3px 7px 1px rgba(34, 60, 80, 0.2);
   &__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0.1px 3px 7px 1px rgba(34, 60, 80, 0.2);
   }
   &__item {
     display: flex;
@@ -108,19 +108,20 @@
 @media (max-width: 961px) {
   .header {
     padding-left: 70px;
+    box-shadow: none;
     &__title {
       font-size: 21px;
       line-height: 28px;
     }
     &__list {
       flex-wrap: wrap;
+      box-shadow: none;
     }
     &__burger {
       height: 70px;
       width: 70px;
 
       order: 2;
-      box-shadow: 0.1px 3px 7px 1px rgba(34, 60, 80, 0.8);
     }
     &__burger-icon {
       width: 27px;
@@ -131,12 +132,12 @@
     }
     &__item-last {
       justify-content: center;
-      padding-top: 16px;
       order: 3;
       background-color: @body-color-white;
       flex-basis: 100%;
       border: none;
       outline: none;
+      box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.5) inset;
     }
     &__manager-photo {
       width: 45px;
