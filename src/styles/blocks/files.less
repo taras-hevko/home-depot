@@ -1,6 +1,9 @@
 .files {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  gap: 20px;
   padding: 0 40px 0 100px;
   &__container {
     display: flex;
@@ -8,14 +11,21 @@
     max-width: 100vh;
     width: 100%;
     padding-left: 30px;
+
+    max-height: 600px;
+    overflow-y: auto;
+    &--active .file {
+      display: block;
+    }
   }
-  &__wrap {
+  &__main-wrap {
     display: flex;
     padding-right: 20px;
     justify-content: space-between;
     align-items: center;
 
     min-height: 60px;
+    cursor: pointer;
 
     background-color: #ed7103;
     &--blue {
@@ -25,8 +35,8 @@
       background-color: #005383;
     }
   }
-  &__wrap--closed {
-    margin-top: 20px;
+  &__main-wrap--active .file {
+    display: block;
   }
   &__logo-lowes {
     padding-left: 10px;
@@ -41,19 +51,6 @@
     padding: 0 20px 0 70px;
     &__title {
       font-size: 16px;
-    }
-  }
-}
-
-@media (max-width: 650px) {
-  .files {
-    &__wrap {
-      gap: 10px;
-      flex-direction: column;
-      padding: 5px 20px 10px 0;
-    }
-    &__title {
-      display: none;
     }
   }
 }

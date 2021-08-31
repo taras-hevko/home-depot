@@ -1,13 +1,12 @@
 .sidebar {
-  position: absolute;
+  position: fixed;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
-  height: 100%;
+  min-height: 100%;
   background-color: @color-grey;
   &__list {
-    display: flex;
-    flex-direction: column;
   }
   &__item {
     display: flex;
@@ -28,6 +27,7 @@
 
 @media (max-width: 960px) {
   .sidebar {
+    width: 70px;
     &__item {
       width: 70px;
       height: 70px;

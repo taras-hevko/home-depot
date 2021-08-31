@@ -10,39 +10,6 @@
   <body>
     <header class="header">
       <nav class="header__nav">
-        <aside class="sidebar">
-          <ul class="sidebar__list">
-            <li class="sidebar__item">
-              <img
-                src="./images/main-logo.png"
-                alt="logo"
-                class="sidebar__logo"
-              >
-            </li>
-            <li class="sidebar__item">
-              <img
-                src="./images/home-depot.png"
-                alt="logo"
-                class="sidebar__logo"
-              >
-            </li>
-            <li class="sidebar__item">
-              <img
-                src="./images/lowes.png"
-                alt="logo"
-                class="sidebar__logo"
-              >
-            </li>
-            <li class="sidebar__item">
-
-              <img
-                src="./images/last.png"
-                alt="logo"
-                class="sidebar__logo"
-              >
-            </li>
-          </ul>
-        </aside>
         <ul class="header__list">
           <li class="header__item header__burger">
             <img
@@ -120,6 +87,39 @@
         </ul>
       </nav>
     </header>
+    <aside class="sidebar">
+      <ul class="sidebar__list">
+        <li class="sidebar__item">
+          <img
+            src="./images/main-logo.png"
+            alt="logo"
+            class="sidebar__logo"
+          >
+        </li>
+        <li class="sidebar__item">
+          <img
+            src="./images/home-depot.png"
+            alt="logo"
+            class="sidebar__logo"
+          >
+        </li>
+        <li class="sidebar__item">
+          <img
+            src="./images/lowes.png"
+            alt="logo"
+            class="sidebar__logo"
+          >
+        </li>
+        <li class="sidebar__item">
+
+          <img
+            src="./images/last.png"
+            alt="logo"
+            class="sidebar__logo"
+          >
+        </li>
+      </ul>
+    </aside>
     <main>
       <section class="download">
         <form class="download__search">
@@ -140,7 +140,7 @@
       </section>
       <section class="files">
         <div class="files__container">
-          <div class="files__wrap">
+          <div class="files__main-wrap">
             <img
               src="./images/logo-files-1.png"
               alt="home depot"
@@ -149,7 +149,7 @@
             <h2 class="files__title">
               Home depot
             </h2>
-            <img src="./images/arrow.png" alt="arrow">
+            <img src="./images/arrow-down.png" alt="arrow">
           </div>
           <div class="file">
             <img
@@ -157,7 +157,7 @@
               alt="date"
               class="file__date"
             >
-            <ul class="file__list file__list--active">
+            <ul class="file__list">
               <li class="file__info">
                 <div class="file__name-wrap">
                   <img
@@ -249,32 +249,307 @@
                 </div>
               </li>
             </ul>
-            <div class="file">
-              <img
-                src="./images/date-close.png"
-                alt="date"
-                class="file__date"
-              >
-              <ul class="file__list file__list--closed"></ul>
-            </div>
-            <div class="file">
-              <img
-                src="./images/date-close.png"
-                alt="date"
-                class="file__date"
-              >
-              <ul class="file__list file__list--closed"></ul>
-            </div>
-            <div class="file">
-              <img
-                src="./images/date-close.png"
-                alt="date"
-                class="file__date"
-              >
-              <ul class="file__list file__list--closed"></ul>
-            </div>
           </div>
-          <div class="files__wrap files__wrap--blue files__wrap--closed">
+          <div class="file">
+            <img
+              src="./images/date-close.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="file">
+            <img
+              src="./images/date-close.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="file">
+            <img
+              src="./images/date-close.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="files__container">
+          <div class="files__main-wrap files__main-wrap--blue">
             <img
               src="./images/logo-files-2.png"
               alt="home depot"
@@ -285,7 +560,405 @@
             </h2>
             <img src="./images/arrow-down.png" alt="arrow">
           </div>
-          <div class="files__wrap files__wrap--sky files__wrap--closed">
+          <div class="file">
+            <img
+              src="./images/date-open.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="file">
+            <img
+              src="./images/date-close.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="file">
+            <img
+              src="./images/date-close.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="file">
+            <img
+              src="./images/date-open.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="files__container">
+          <div class="files__main-wrap files__main-wrap--sky">
             <img
               src="./images/logo-files-3.png"
               alt="home depot"
@@ -296,6 +969,402 @@
             </h2>
             <img src="./images/arrow-down.png" alt="arrow">
           </div>
+          <div class="file">
+            <img
+              src="./images/date-close.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="file">
+            <img
+              src="./images/date-open.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="file">
+            <img
+              src="./images/date-open.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="file">
+            <img
+              src="./images/date-open.png"
+              alt="date"
+              class="file__date"
+            >
+            <ul class="file__list">
+              <li class="file__info">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loading...
+                  </p>
+                  <img src="./images/point-1.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--sky">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Processed...
+                  </p>
+                  <img src="./images/point-2.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+              <li class="file__info file__info--green">
+                <div class="file__name-wrap">
+                  <img
+                    src="./images/file.png"
+                    alt="file icon"
+                    class="file__icon"
+                  >
+                  <p class="file__name">
+                    Filename.ssf
+                  </p>
+                </div>
+                <div class="file__status-wrap">
+                  <p class="file__status">
+                    Status Loaded...
+                  </p>
+                  <img src="./images/point-3.png" alt="grey point">
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
@@ -304,5 +1373,6 @@
         © 2021 PUT Corp. All rights reserved.
       </p>
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>

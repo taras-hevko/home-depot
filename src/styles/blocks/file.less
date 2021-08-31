@@ -1,17 +1,23 @@
 .file {
   background-color: @color-grey;
+  border-bottom: 5px @color-light-grey solid;
+  display: none;
   &__date {
-    padding: 12px;
+    padding: 12px 80% 12px 12px;
+    cursor: pointer;
   }
   &__list {
     padding: 20px;
-    border-top: 5px @color-light-grey solid;
+
     background-color: @color-white;
     max-height: 228px;
     overflow-y: auto;
+
+    display: none;
   }
-  &__list--closed {
-    padding: 0;
+  &__date--active &__list {
+    display: block;
+
   }
   &__info {
     display: flex;
