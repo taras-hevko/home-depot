@@ -1,12 +1,20 @@
 .sidebar {
-  position: fixed;
-  width: 100px;
+  position: absolute;
+  float: left;
   left: 0;
   top: 0;
   bottom: 0;
-  min-height: 100%;
+  width: 100px;
   background-color: @color-grey;
-  &__list {
+  &__background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100vh;
+    background-color: @color-grey;
+    z-index: -1;
   }
   &__item {
     display: flex;
@@ -28,6 +36,9 @@
 @media (max-width: 960px) {
   .sidebar {
     width: 70px;
+    &__background {
+      width: 70px;
+    }
     &__item {
       width: 70px;
       height: 70px;
